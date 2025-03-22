@@ -1,0 +1,172 @@
+commit b6862bfeb01870b786ac8f06455e9cbceb87c61d
+Author: MDM <67755379+mdeilamym@users.noreply.github.com>
+Date:   Fri Dec 27 05:43:48 2024 +0400
+
+    Update main.go
+    
+    Line 46 - text correction
+
+commit e01614442fc5cec288ba582ab460a834e24598a2
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Sun Aug 6 13:30:41 2023 -0700
+
+    add code review 1401-12-18 session
+
+commit 7d8366ba8ecc6dde88c41d40830f33299ae075f0
+Merge: 98fba82 c7f7d0c
+Author: Go Casts <99625616+gocastsian@users.noreply.github.com>
+Date:   Fri Mar 3 13:55:51 2023 +0330
+
+    Merge pull request #2 from gocasts-bootcamp/hossein-nazari-refactor-todo3
+    
+    update greeting message
+
+commit c7f7d0cc28802b8e2f63329bd3b718799a9e061d
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Mar 3 13:54:28 2023 +0330
+
+    update greeting message
+
+commit 98fba82b0f995c987e2b4115e7615c718bd483ed
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Mar 3 13:53:51 2023 +0330
+
+    update .gitignore
+
+commit 4ea8804fc285fd8f327de811e46b7bb11677839e
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Mar 3 13:30:34 2023 +0330
+
+    get server address from command arguments
+
+commit 21db3bdabc7b0fca83eb3f94f9ae9333870976df
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Mar 3 13:12:41 2023 +0330
+
+    add tcp server and client which supports json serialized message for communication
+
+commit 0e72be56064f64485a47aa88c017b55a767e100a
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Mar 3 12:12:40 2023 +0330
+
+    separate server and client logic for task use-cases
+
+commit 8e17cf07f17608b7af7dd9c301698d4bd9504fae
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 24 13:45:46 2023 +0330
+
+    refactor todo cli
+
+commit aedabe9cb0d85f3d24d57ea2fae84e96b01be8cc
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 24 13:25:03 2023 +0330
+
+    move writeUserToFile from global funct to method of fielStore type
+
+commit d62ad12ee2e22328ce3f478e03047001c8810856
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 24 13:19:17 2023 +0330
+
+    decouple loadUser and SaveUser logic from fileStorage
+
+commit fbf14e62494bcba12edb32822bc95340b868737d
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 14:37:29 2023 +0330
+
+    remove redundant examples
+
+commit 661d6b4c9508c6a5a7f38d079a6eb4cbc8086004
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 14:09:07 2023 +0330
+
+    serialization vs encoding
+
+commit bc8fe1a831c0f6b4d59f73180363ab69e5eed84f
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 13:54:42 2023 +0330
+
+    hash the password with md5 hashing
+
+commit ddc3a43fc577123a6457a9f4779db8c91e49b03a
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 13:42:09 2023 +0330
+
+    add json serialization & deserialization
+
+commit 5ef7347bbc6f0a9be59aa57a78b4480a33d80c55
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 12:53:24 2023 +0330
+
+    move write user item to file functionality to separate function
+
+commit 4bb3ec63334f4cd22466a1893f8bee28df08fc9c
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 12:48:29 2023 +0330
+
+    add manual incomplete serialization for storing user data in file
+
+commit d401c9966042510c5910dd16fb3b378e205bffa4
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 12:07:32 2023 +0330
+
+    add write user data to file
+
+commit b10d4d66c5b237c7ab3cd26208e436221df077c1
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 11:25:07 2023 +0330
+
+    add category entity and validate category id in create-task process
+
+commit 57690478e5e07b23add27642a179b981c58ad2d4
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 17 11:01:41 2023 +0330
+
+    add authentication & user entity
+
+commit b05374aef968e63c87188d50872896d54e5b97ef
+Author: Go Casts <gocasts.ir@gmail.com>
+Date:   Fri Feb 10 14:17:28 2023 +0330
+
+    add todo cli app
+
+commit 0507ba742e4e2c022b47fae431321142a6d571d1
+Author: hossein <fireball@elixirs-MacBook-Pro.local>
+Date:   Fri Feb 10 12:23:37 2023 +0330
+
+    some tips about slice pointers and copy function
+
+commit 77931dd44dd1611a569b8b3b358f36d3e960200b
+Author: hossein <fireball@elixirs-MacBook-Pro.local>
+Date:   Fri Feb 10 11:58:04 2023 +0330
+
+    some tips about exported/unexported things
+
+commit 8ce8b6b8a1ba94f8bb2a9f73cde4acceb7a998f2
+Author: hossein <fireball@elixirs-MacBook-Pro.local>
+Date:   Fri Feb 10 11:37:45 2023 +0330
+
+    some tips about pointers and method pointer receiver
+
+commit 59b9298bf156449ea592d850457f192460f7c2c2
+Author: hossein <fireball@elixirs-MacBook-Pro.local>
+Date:   Fri Feb 10 11:14:46 2023 +0330
+
+    pointer
+
+commit 56de81190898bac47877197873a0447fdb3e1c1f
+Author: hossein <fireball@elixirs-MacBook-Pro.local>
+Date:   Fri Feb 10 11:04:11 2023 +0330
+
+    method
+
+commit f3009eaca6a8b3d10a94328f7f9fb28c5edc5b39
+Author: hossein <fireball@elixirs-MacBook-Pro.local>
+Date:   Fri Feb 10 09:49:54 2023 +0330
+
+    variadic function
+
+commit 78e1bfb267827d3c9b1d625eceef05e6a350869a
+Author: hossein <fireball@elixirs-MacBook-Pro.local>
+Date:   Fri Feb 10 09:39:24 2023 +0330
+
+    function values
