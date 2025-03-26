@@ -31,8 +31,12 @@ const (
 func main() {
 
 	taskMemoryRepo := memorystore.NewTaskStore()
+	taskCategoryMemoryRepo := memorystore.TaskCategory{
+		Task:     taskMemoryRepo,
+		Category: nil,
+	}
 
-	taskService := task.NewService(taskMemoryRepo)
+	taskService := task.NewService(taskCategoryMemoryRepo)
 
 	serializeMode := flag.String("serialize-mode", constant.ManDarAvardiSerializationMode, "serialization mode to write data to file")
 	command := flag.String("command", "no-command", "command to run")

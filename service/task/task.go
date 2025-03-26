@@ -6,7 +6,7 @@ import (
 )
 
 type ServiceRepository interface {
-	//DoesThisUserHaveThisCategoryID(userID, categoryID int) bool
+	DoesThisUserHaveThisCategoryID(userID, categoryID int) bool
 	CreateNewTask(t entity.Task) (entity.Task, error)
 	ListUserTask(userID int) ([]entity.Task, error)
 }
